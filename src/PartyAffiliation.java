@@ -24,7 +24,7 @@ public class PartyAffiliation {
 
         else
         {
-            System.out.println("You enter Incorrect input: " +party);
+            System.out.println("You Enter Incorrect input: " +party);
             System.out.print("Try Again!");
         }
     }

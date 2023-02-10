@@ -24,10 +24,9 @@ public class NumCompare {
             System.out.println(" the input is not valid: " + trash);
             System.out.println("Try Again!");
             System.exit(0);
-
         }
-        System.out.print("Enter Second Integer: ");
 
+        System.out.print("Enter Second Integer: ");
 
         if(in.hasNextInt())
         {
@@ -37,10 +36,9 @@ public class NumCompare {
         else
         {
             trash = in.nextLine();
-            System.out.println(" the input is not valid: " + trash);
+            System.out.println(" The input is not valid: " + trash);
             System.out.println("Try Again!");
             System.exit(0);
-
         }
 
 

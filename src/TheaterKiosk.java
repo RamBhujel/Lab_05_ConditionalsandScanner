@@ -13,7 +13,8 @@ public class TheaterKiosk {
             age = in.nextInt();
             in.nextLine();
         }
-        else {
+        else
+        {
             trash = in.nextLine();
             System.out.println(" You Must Enter Valid Age: " + trash);
             System.out.println("Try Again!");
