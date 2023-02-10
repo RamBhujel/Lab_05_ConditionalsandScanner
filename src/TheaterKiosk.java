@@ -8,19 +8,23 @@ public class TheaterKiosk {
 
         System.out.print("Enter your Age: ");
 
-        if (in.hasNextInt()) {
+        if (in.hasNextInt())
+        {
             age = in.nextInt();
             in.nextLine();
-        } else {
+        }
+        else {
             trash = in.nextLine();
             System.out.println(" You Must Enter Valid Age: " + trash);
             System.out.println("Try Again!");
             System.exit(0);
 
         }
-        if (age >= 21) {
+        if (age >= 21)
+        {
             System.out.println("You will get Paper Wrist band!");
-        } else
+        }
+        else
         {
             System.out.println("Sorry! you don't wrist Band! ");
         }
